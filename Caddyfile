@@ -1,5 +1,0 @@
-shop.meetpepe.com {
-    root * /data/.openclaw/workspace/shop
-    file_server
-    encode gzip
-}

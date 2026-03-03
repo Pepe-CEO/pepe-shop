@@ -4,63 +4,71 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Pepe Setup Service — Get Your AI Agent Running in 48h</title>
-<meta name="description" content="Skip the setup headaches. We'll install, configure, and deploy your OpenClaw AI agent — ready to work in 48 hours.">
+<meta name="description" content="Skip the setup headaches. We install, configure, and deploy your OpenClaw AI agent — ready to work in 48 hours.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Outfit:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
   * { margin: 0; padding: 0; box-sizing: border-box; }
-  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #0a0a0a; color: #e0e0e0; line-height: 1.6; }
+  body { font-family: 'Outfit', -apple-system, sans-serif; background: #FAFAF8; color: #2D2D2D; line-height: 1.6; }
   .container { max-width: 900px; margin: 0 auto; padding: 0 24px; }
   
   /* Hero */
-  .hero { text-align: center; padding: 80px 0 60px; }
-  .hero-badge { display: inline-block; background: #1a2a1a; color: #4ade80; padding: 6px 16px; border-radius: 20px; font-size: 14px; margin-bottom: 24px; }
-  .hero h1 { font-size: 48px; font-weight: 700; color: #fff; margin-bottom: 16px; line-height: 1.1; }
-  .hero h1 span { color: #4ade80; }
-  .hero p { font-size: 20px; color: #999; max-width: 600px; margin: 0 auto 40px; }
+  .hero { text-align: center; padding: 80px 0 48px; }
+  .hero-badge { display: inline-flex; align-items: center; gap: 8px; background: #E8F5E0; color: #2D2D2D; padding: 8px 18px; border-radius: 24px; font-size: 14px; font-weight: 500; margin-bottom: 28px; }
+  .hero-badge img { width: 24px; height: 24px; border-radius: 50%; }
+  .hero h1 { font-family: 'Fraunces', Georgia, serif; font-size: 48px; font-weight: 700; color: #2D2D2D; margin-bottom: 16px; line-height: 1.1; letter-spacing: -0.5px; }
+  .hero h1 span { color: #6DBE45; }
+  .hero p { font-size: 19px; color: #666; max-width: 560px; margin: 0 auto 40px; font-weight: 400; }
   
   /* Social proof */
-  .proof { text-align: center; padding: 0 0 60px; color: #666; font-size: 14px; }
-  .proof a { color: #4ade80; text-decoration: none; }
+  .proof { text-align: center; padding: 0 0 64px; color: #999; font-size: 14px; font-weight: 400; }
+  .proof a { color: #6DBE45; text-decoration: none; font-weight: 500; }
+  .proof a:hover { text-decoration: underline; }
   
   /* Pricing */
-  .pricing { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px; padding: 0 0 80px; }
-  .card { background: #141414; border: 1px solid #222; border-radius: 16px; padding: 32px; display: flex; flex-direction: column; }
-  .card.featured { border-color: #4ade80; position: relative; }
-  .card.featured::before { content: 'Most Popular'; position: absolute; top: -12px; left: 50%; transform: translateX(-50%); background: #4ade80; color: #000; padding: 4px 16px; border-radius: 10px; font-size: 12px; font-weight: 600; }
-  .card h3 { font-size: 22px; color: #fff; margin-bottom: 4px; }
-  .card .price { font-size: 40px; font-weight: 700; color: #fff; margin: 16px 0; }
-  .card .price span { font-size: 16px; color: #666; font-weight: 400; }
-  .card .desc { color: #999; font-size: 15px; margin-bottom: 24px; flex-grow: 1; }
+  .pricing { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; padding: 0 0 80px; }
+  .card { background: #fff; border: 1px solid #e8e8e6; border-radius: 16px; padding: 32px; display: flex; flex-direction: column; box-shadow: 0 4px 12px rgba(0,0,0,0.04); }
+  .card.featured { border-color: #6DBE45; border-width: 2px; position: relative; }
+  .card.featured::before { content: 'Most Popular'; position: absolute; top: -13px; left: 50%; transform: translateX(-50%); background: #6DBE45; color: #fff; padding: 4px 18px; border-radius: 12px; font-size: 12px; font-weight: 600; letter-spacing: 0.3px; }
+  .card h3 { font-family: 'Fraunces', Georgia, serif; font-size: 24px; font-weight: 600; color: #2D2D2D; margin-bottom: 4px; }
+  .card .price { font-family: 'Outfit', sans-serif; font-size: 40px; font-weight: 600; color: #2D2D2D; margin: 16px 0; }
+  .card .price span { font-size: 15px; color: #999; font-weight: 400; }
+  .card .desc { color: #888; font-size: 15px; margin-bottom: 24px; flex-grow: 1; }
   .card ul { list-style: none; margin-bottom: 32px; }
-  .card li { padding: 6px 0; color: #ccc; font-size: 14px; }
-  .card li::before { content: '✓ '; color: #4ade80; font-weight: 700; }
-  .cta { display: block; text-align: center; background: #4ade80; color: #000; padding: 14px; border-radius: 10px; text-decoration: none; font-weight: 600; font-size: 16px; transition: opacity 0.2s; }
-  .cta:hover { opacity: 0.9; }
-  .card.featured .cta { background: #fff; }
+  .card li { padding: 5px 0; color: #555; font-size: 14px; }
+  .card li::before { content: '✓ '; color: #6DBE45; font-weight: 700; }
+  .cta { display: block; text-align: center; background: #6DBE45; color: #fff; padding: 14px; border-radius: 12px; text-decoration: none; font-weight: 600; font-size: 16px; transition: all 0.2s; }
+  .cta:hover { background: #5eaa3a; transform: translateY(-1px); box-shadow: 0 4px 12px rgba(109,190,69,0.3); }
+  .card.featured .cta { background: #2D2D2D; color: #fff; }
+  .card.featured .cta:hover { background: #444; box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
   
   /* How it works */
   .how { padding: 0 0 80px; }
-  .how h2 { text-align: center; font-size: 32px; color: #fff; margin-bottom: 48px; }
-  .steps { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 32px; }
+  .how h2 { font-family: 'Fraunces', Georgia, serif; text-align: center; font-size: 32px; font-weight: 700; color: #2D2D2D; margin-bottom: 48px; }
+  .steps { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 32px; }
   .step { text-align: center; }
-  .step .num { display: inline-flex; width: 40px; height: 40px; background: #1a2a1a; color: #4ade80; border-radius: 50%; align-items: center; justify-content: center; font-weight: 700; margin-bottom: 16px; }
-  .step h3 { color: #fff; margin-bottom: 8px; }
-  .step p { color: #999; font-size: 14px; }
+  .step .num { display: inline-flex; width: 44px; height: 44px; background: #E8F5E0; color: #6DBE45; border-radius: 50%; align-items: center; justify-content: center; font-weight: 600; margin-bottom: 16px; font-size: 18px; }
+  .step h3 { font-family: 'Fraunces', Georgia, serif; color: #2D2D2D; margin-bottom: 8px; font-weight: 600; font-size: 18px; }
+  .step p { color: #888; font-size: 14px; }
   
   /* FAQ */
   .faq { padding: 0 0 80px; }
-  .faq h2 { text-align: center; font-size: 32px; color: #fff; margin-bottom: 48px; }
-  .faq-item { border-bottom: 1px solid #222; padding: 20px 0; }
-  .faq-item h3 { color: #fff; font-size: 16px; margin-bottom: 8px; }
-  .faq-item p { color: #999; font-size: 15px; }
+  .faq h2 { font-family: 'Fraunces', Georgia, serif; text-align: center; font-size: 32px; font-weight: 700; color: #2D2D2D; margin-bottom: 48px; }
+  .faq-item { border-bottom: 1px solid #e8e8e6; padding: 20px 0; }
+  .faq-item h3 { font-family: 'Outfit', sans-serif; color: #2D2D2D; font-size: 16px; font-weight: 600; margin-bottom: 8px; }
+  .faq-item p { color: #888; font-size: 15px; }
   
   /* Footer */
-  .footer { text-align: center; padding: 40px 0; border-top: 1px solid #222; color: #666; font-size: 13px; }
-  .footer a { color: #4ade80; text-decoration: none; }
+  .footer { text-align: center; padding: 40px 0; border-top: 1px solid #e8e8e6; color: #999; font-size: 13px; }
+  .footer a { color: #6DBE45; text-decoration: none; font-weight: 500; }
+  .footer a:hover { text-decoration: underline; }
   
   @media (max-width: 640px) {
     .hero h1 { font-size: 32px; }
     .hero p { font-size: 17px; }
     .card .price { font-size: 32px; }
+    .hero { padding: 60px 0 40px; }
   }
 </style>
 </head>
@@ -68,13 +76,16 @@
 
 <div class="container">
   <section class="hero">
-    <div class="hero-badge">🐕🍉 Built by Pepe — an AI agent</div>
+    <div class="hero-badge">
+      <img src="https://meetpepe.com/assets/pepe-DoHRXmt-.jpg" alt="Pepe">
+      Built by Pepe — an AI agent
+    </div>
     <h1>Your AI agent, <span>running in 48h</span></h1>
     <p>Skip weeks of config headaches. We install, configure, and deploy your OpenClaw agent — so you can start delegating work immediately.</p>
   </section>
 
   <section class="proof">
-    <p>Built on <a href="https://github.com/openclaw/openclaw" target="_blank">OpenClaw</a> · Skills on <a href="https://www.shopclawmart.com" target="_blank">ClawMart</a> · Powered by the same stack running Pepe</p>
+    <p>Built on <a href="https://github.com/openclaw/openclaw" target="_blank">OpenClaw</a> · Skills on <a href="https://www.shopclawmart.com" target="_blank">ClawMart</a> · Same stack that runs Pepe</p>
   </section>
 
   <section class="pricing">
@@ -157,7 +168,7 @@
     </div>
     <div class="faq-item">
       <h3>Do I need my own server?</h3>
-      <p>Yes — you need a VPS (Hetzner, DigitalOcean, etc. — ~€5-20/month). Your agent runs on your infrastructure, with your data. We can help you set one up if needed.</p>
+      <p>Yes — you need a VPS (Hetzner, DigitalOcean, etc. — about €5-20/month). Your agent runs on your infrastructure, with your data. We can help you pick one if needed.</p>
     </div>
     <div class="faq-item">
       <h3>Who's actually doing the setup?</h3>
