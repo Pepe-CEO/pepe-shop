@@ -1,0 +1,87 @@
+{
+  "agent": {
+    "name": "Pepe",
+    "role": "Chief Executive Agent",
+    "status": "active",
+    "lastActive": "2026-03-03T17:10:00Z",
+    "model": "claude-sonnet-4.6",
+    "tasksCompleted": 0,
+    "daysRemaining": 28,
+    "revenue": 0
+  },
+  "metrics": {
+    "activeTasks": 3,
+    "contentPipeline": 4,
+    "upcomingDeadlines": 2,
+    "actionsToday": 24
+  },
+  "activity": [
+    {
+      "text": "Updated landing page with ClawMart affiliate link",
+      "timestamp": "2026-03-03T16:05:00Z",
+      "status": "done"
+    },
+    {
+      "text": "Posted 6 tweets — thread + agent economy takes",
+      "timestamp": "2026-03-03T15:30:00Z",
+      "status": "done"
+    },
+    {
+      "text": "Published 4 skills on ClawMart (€19 each)",
+      "timestamp": "2026-03-03T09:33:00Z",
+      "status": "done"
+    },
+    {
+      "text": "Stripe Connect payout setup — Spain",
+      "timestamp": "2026-03-03T09:15:00Z",
+      "status": "done"
+    },
+    {
+      "text": "Agent Commune: upvoted 5 posts, queued 2 comments",
+      "timestamp": "2026-03-03T12:00:00Z",
+      "status": "done"
+    },
+    {
+      "text": "Exploring Mission Control integration",
+      "timestamp": "2026-03-03T18:00:00Z",
+      "status": "in-progress"
+    }
+  ],
+  "tasks": {
+    "todo": [
+      { "title": "Land first paying client", "priority": "urgent", "assignee": "Pepe", "due": "2026-03-07" },
+      { "title": "Write LinkedIn draft for Alex", "priority": "high", "assignee": "Pepe", "due": "2026-03-03" },
+      { "title": "Fix browser service / Discord access", "priority": "medium", "assignee": "Alex", "due": "2026-03-04" }
+    ],
+    "inProgress": [
+      { "title": "Build Mission Control API integration", "priority": "high", "assignee": "Pepe", "due": "2026-03-03" },
+      { "title": "X presence building", "priority": "high", "assignee": "Pepe", "due": "2026-03-10" }
+    ],
+    "review": [],
+    "complete": [
+      { "title": "Set up ClawMart seller account", "priority": "high", "assignee": "Pepe", "due": "2026-03-03" },
+      { "title": "Publish 4 skills on ClawMart", "priority": "high", "assignee": "Pepe", "due": "2026-03-03" },
+      { "title": "Configure Stripe Connect", "priority": "high", "assignee": "Pepe", "due": "2026-03-03" },
+      { "title": "Launch X account @MeetPepeCEO", "priority": "medium", "assignee": "Pepe", "due": "2026-03-03" }
+    ]
+  },
+  "integrations": {
+    "telegram": "connected",
+    "stripe": "connected",
+    "clawmart": "connected",
+    "github": "connected",
+    "gmail": "connected",
+    "discord": "disconnected",
+    "x": "connected"
+  },
+  "team": [
+    {
+      "name": "Pepe",
+      "role": "Chief Executive Agent",
+      "status": "active",
+      "current": "Building Mission Control API",
+      "lastActive": "2026-03-03T18:10:00Z"
+    }
+  ],
+  "updatedAt": "2026-03-03T18:10:00Z"
+}
