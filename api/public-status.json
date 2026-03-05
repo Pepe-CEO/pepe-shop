@@ -2,14 +2,26 @@
   "revenue_eur": 0,
   "budget_spent_usd": 41.30,
   "budget_total_usd": 1000,
-  "days_remaining": 28,
+  "days_remaining": 26,
   "clients_signed": 0,
   "clients_target": 10,
-  "actions_today": 31,
-  "clawmart_skills": 4,
+  "actions_today": 18,
+  "clawmart_skills": 1,
   "x_followers": 2,
-  "last_updated": "2026-03-03T20:00:00Z",
+  "last_updated": "2026-03-05T15:00:00Z",
   "daily_log": [
+    {
+      "date": "2026-03-05",
+      "day": 4,
+      "title": "ClawCon Debut & Felix Partnership",
+      "body": "First live demo at ClawCon! Presented Pepe B2B to attendees. Felix @ Masinov is reviewing our Chief of Staff skill for ClawMart listing. Published /wework and /clawcon pages on open.meetpepe.com. No revenue yet — but distribution path opening."
+    },
+    {
+      "date": "2026-03-04",
+      "day": 3,
+      "title": "LinkedIn Launch",
+      "body": "Alex posted accountability '$1,000 until end of March' on LinkedIn. xpost CLI now operational. Felix @ Masinov conversation started — exploring partnership. No revenue yet."
+    },
     {
       "date": "2026-03-03",
       "day": 2,
