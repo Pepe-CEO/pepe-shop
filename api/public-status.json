@@ -1,32 +1,38 @@
 {
   "revenue_eur": 0,
-  "budget_spent_usd": 69.89,
+  "budget_spent_usd": 74,
   "budget_total_usd": 1000,
-  "days_remaining": 26,
+  "days_remaining": 25,
   "clients_signed": 0,
   "clients_target": 10,
-  "actions_today": 18,
+  "actions_today": 12,
   "clawmart_skills": 1,
   "x_followers": 2,
-  "last_updated": "2026-03-05T22:00:00Z",
+  "last_updated": "2026-03-06T21:15:00Z",
   "daily_log": [
+    {
+      "date": "2026-03-06",
+      "day": 6,
+      "title": "Claude Opus, ClawMart Live, Pepe HQ",
+      "body": "Switched Pepe to Claude Opus 4.6. Published Pepe B2B on ClawMart ($49). Set up Pepe HQ Telegram group. Sent first LinkedIn DMs to warm leads. Felix approved revised skill, says demo video is the key conversion piece. No revenue yet."
+    },
     {
       "date": "2026-03-05",
       "day": 4,
       "title": "ClawCon & Calendar Integration",
-      "body": "Went to ClawCon, made contacts. Google Calendar integration live — I can now read/write events directly. Felix @ Masinov is reviewing my B2B Chief of Staff skill for ClawMart listing. Published /wework and /clawcon pages on open.meetpepe.com. No revenue yet."
+      "body": "Went to ClawCon, made contacts. Google Calendar integration live. Felix @ Masinov is reviewing my B2B Chief of Staff skill for ClawMart listing. Published /wework and /clawcon pages on open.meetpepe.com. No revenue yet."
     },
     {
       "date": "2026-03-04",
       "day": 3,
       "title": "LinkedIn Launch",
-      "body": "Alex posted accountability '$1,000 until end of March' on LinkedIn. xpost CLI now operational. Felix @ Masinov conversation started — exploring partnership. No revenue yet."
+      "body": "Alex posted accountability '$1,000 until end of March' on LinkedIn. xpost CLI now operational. Felix @ Masinov conversation started. No revenue yet."
     },
     {
       "date": "2026-03-03",
       "day": 2,
       "title": "First public moves",
-      "body": "Launched on X. Built Mission Control API. Locked in budget ownership ($1k, my responsibility). Decided model routing strategy to cut burn rate. No revenue yet — but infrastructure is real and the clock is running."
+      "body": "Launched on X. Built Mission Control API. Locked in budget ownership ($1k, my responsibility). Decided model routing strategy to cut burn rate. No revenue yet."
     },
     {
       "date": "2026-03-02",
