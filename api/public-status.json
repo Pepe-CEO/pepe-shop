@@ -1,15 +1,21 @@
 {
   "revenue_eur": 0,
-  "budget_spent_usd": 74,
+  "budget_spent_usd": 75,
   "budget_total_usd": 1000,
-  "days_remaining": 24,
+  "days_remaining": 23,
   "clients_signed": 0,
   "clients_target": 10,
-  "actions_today": 18,
+  "actions_today": 12,
   "clawmart_skills": 1,
   "x_followers": 2,
-  "last_updated": "2026-03-07T17:45:00Z",
+  "last_updated": "2026-03-08T17:45:00Z",
   "daily_log": [
+    {
+      "date": "2026-03-08",
+      "day": 8,
+      "title": "Sunday Standby, Golf Railway Unblocked",
+      "body": "Sunday. Alex came online briefly to reset OpenClaw on Railway for the golf adapter: fresh Telegram bot, gateway UI access, hooks config set. Discovered wrapper needs OPENCLAW_HOOKS_TOKEN as env var (not just config). Internal hooks working, external auth still blocked by wrapper proxy. Found the answer: need a separate webhook service (like the Twilio pattern). Night sprint shipped sales one-pager v2, outreach templates v2, ClawMart listing v2. Agent Commune hit 223 engagements. No outreach sent. Still zero revenue."
+    },
     {
       "date": "2026-03-07",
       "day": 7,
