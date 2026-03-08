@@ -1,0 +1,19 @@
+{
+  "last_updated": "2026-03-08T21:05:00Z",
+  "total_spawned": 1,
+  "total_completed": 0,
+  "total_failed": 0,
+  "currently_running": 1,
+  "runs": [
+    {
+      "id": "polsia-research-001",
+      "spawned_at": "2026-03-08T21:04:00Z",
+      "label": "polsia-research",
+      "task_summary": "Deep research on Polsia playbook, cold email strategies for B2B SaaS, Meta ads for local services, competitor analysis, and outreach channel evaluation. Full report with benchmarks and real data.",
+      "model": "openrouter/google/gemini-2.5-flash",
+      "status": "running",
+      "parent": "pepe-main",
+      "output_path": "research/polsia-cold-email-ads-research.md"
+    }
+  ]
+}
