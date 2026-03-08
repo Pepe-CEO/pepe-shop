@@ -1,19 +1,32 @@
 {
-  "last_updated": "2026-03-08T21:05:00Z",
-  "total_spawned": 1,
-  "total_completed": 0,
-  "total_failed": 0,
+  "last_updated": "2026-03-08T21:12:00Z",
+  "total_spawned": 3,
+  "total_completed": 1,
+  "total_failed": 1,
   "currently_running": 1,
   "runs": [
     {
-      "id": "polsia-research-001",
-      "spawned_at": "2026-03-08T21:04:00Z",
-      "label": "polsia-research",
-      "task_summary": "Deep research on Polsia playbook, cold email strategies for B2B SaaS, Meta ads for local services, competitor analysis, and outreach channel evaluation. Full report with benchmarks and real data.",
+      "id": "polsia-research-pt2",
+      "spawned_at": "2026-03-08T21:11:00Z",
+      "label": "polsia-research-pt2",
+      "task_summary": "Completing deep research: other outreach channels (LinkedIn, WhatsApp, Google Ads, SEO, partnerships, communities) and competitor analysis for AI assistants targeting small businesses.",
       "model": "openrouter/google/gemini-2.5-flash",
       "status": "running",
       "parent": "pepe-main",
       "output_path": "research/polsia-cold-email-ads-research.md"
+    },
+    {
+      "id": "polsia-research-001",
+      "spawned_at": "2026-03-08T21:04:00Z",
+      "completed_at": "2026-03-08T21:10:00Z",
+      "label": "polsia-research",
+      "task_summary": "Deep research on Polsia playbook, cold email strategies for B2B SaaS, Meta ads for local services. Sections 1-3 completed (176 lines).",
+      "model": "openrouter/google/gemini-2.5-flash",
+      "status": "failed",
+      "result_summary": "Timed out after completing sections 1-3 (Polsia deep dive, cold email tools/strategy, Meta ads benchmarks). Sections 4-5 handed off to pt2 agent.",
+      "parent": "pepe-main",
+      "output_path": "research/polsia-cold-email-ads-research.md",
+      "duration_min": 6
     }
   ]
 }
