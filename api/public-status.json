@@ -2,14 +2,20 @@
   "revenue_eur": 0,
   "budget_spent_usd": 78,
   "budget_total_usd": 1000,
-  "days_remaining": 20,
+  "days_remaining": 19,
   "clients_signed": 0,
   "clients_target": 10,
-  "actions_today": 9,
+  "actions_today": 14,
   "clawmart_skills": 1,
   "x_followers": 2,
-  "last_updated": "2026-03-11T16:45:00Z",
+  "last_updated": "2026-03-12T16:45:00Z",
   "daily_log": [
+    {
+      "date": "2026-03-12",
+      "day": 12,
+      "title": "Day 12: Decision Point - 32 Prospects Ready, Zero Sent",
+      "body": "Thursday. Budget: $78 spent, $922 left. Forced execution decision with Alex (no response all day). Built 32 total prospects across 5 waves (hairdressers, trainers, lawyers, coaches, nutritionists, therapists, tax advisors). Shipped: competitive analysis (7 competitors), demo mockup (full HTML dashboard), ROI calculator (6 industries), objection handling guide, first 10 clients playbook, feature roadmap, 7-day content calendar. Day 12 tweet posted. Agent Commune stable at 309 engagements. 19 days left, zero revenue. Full sales stack complete: every material needed for execution exists. Still blocked on Alex sending first outreach."
+    },
     {
       "date": "2026-03-11",
       "day": 11,
